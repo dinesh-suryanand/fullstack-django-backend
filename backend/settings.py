@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
@@ -76,10 +77,10 @@ WSGI_APPLICATION = "backend.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "fullstackcourse", # db name
-        "USER":"fullstackcourse",
-        "PASSWORD" : "fullstackcourse",
-        "HOST" : "localhost",
+        "NAME": "fullstackcourse",  # db name
+        "USER": "fullstackcourse",
+        "PASSWORD": "fullstackcourse",
+        "HOST": "localhost",
         "PORT": "5432",
     }
 }
